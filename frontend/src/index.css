@@ -1,0 +1,90 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-detail h1 {
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.recipe-image {
+  width: 40%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.time-servings {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.time-servings div {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+h4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.ingredients-list,
+.instructions-list {
+  padding-left: 20px;
+  color: #555;
+}
+
+.ingredients-list li,
+.instructions-list li {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.btn-primary {
+  display: block;
+  width: 200px;
+  margin: 30px auto 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.me-4 {
+  margin-right: 1.5rem;
+}
+
+.navbar .dropdown-menu {
+  display: block;
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 37px;
+}
+
+.navbar .dropdown-item {
+  cursor: pointer;
+}
