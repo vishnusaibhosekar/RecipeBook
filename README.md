@@ -11,7 +11,6 @@ The application is live [here](http://recipe-sharing-fe.s3-website-us-west-2.ama
 - [Architecture](#architecture)
 - [Installation](#installation)
 - [Deployment](#deployment)
-- [Screenshots](#screenshots)
 - [Features](#features)
 
 ## Overview
@@ -71,30 +70,43 @@ The frontend is deployed on AWS S3. Follow these steps to deploy the frontend:
    ```
 
 2. Deploy to S3:
+
+   - Create a new S3 bucket.
+
    ```bash
    aws s3 sync build/ s3://YOUR_S3_BUCKET_NAME
    ```
+
+   - Select the newly created bucket.
+
+   - Go to the "Properties" tab.
+
+   - Scroll down to the "Static website hosting" section.
+
+   - Click on "Edit".
+
+   - Enable "Static website hosting".
+
+   - Specify the "index document" (e.g., index.html).
+
+   - Edit the "Bucket policy" to allow public read access.
 
 ### Backend
 
 The backend is deployed on AWS EC2. Follow these steps to deploy the backend:
 
-1. SSH into your EC2 instance.
+- SSH into your EC2 instance.
 
-2. Pull the latest code from the repository.
+- Pull the latest code from the repository.
 
-3. Navigate to the backend directory and build the Docker container:
+- Navigate to the backend directory and build the Docker container:
 
-   ```bash
-   cd backend
-   sudo docker-compose up -d --build
-   ```
+  ```bash
+  cd backend
+  sudo docker-compose up -d --build
+  ```
 
-4. Ensure that your EC2 instance has the necessary security group rules to allow traffic on ports 80 and 8000.
-
-## Screenshots
-
-Provide some screenshots of your application here.
+- Ensure that your EC2 instance has the necessary security group rules to allow traffic on ports 80 and 8000.
 
 ## Features
 
