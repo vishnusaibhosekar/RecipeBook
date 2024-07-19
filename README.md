@@ -27,7 +27,7 @@ RecipeBook allows users to share and explore recipes. Users can search for recip
 
 ## Architecture
 
-![Architecture Diagram](URL_TO_YOUR_ARCHITECTURE_IMAGE)
+![recipe_sharing_platform_architecture](https://gist.github.com/user-attachments/assets/6d7349b7-6dcb-48d9-bc8c-2f551c44167c)
 
 The architecture consists of the following components:
 
