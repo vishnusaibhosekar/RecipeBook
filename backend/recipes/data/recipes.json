@@ -1,0 +1,158 @@
+[
+    {
+        "id": 1,
+        "title": "Spaghetti Carbonara",
+        "detailedIngredients": [
+            "200g Spaghetti",
+            "2 large eggs",
+            "100g Pancetta",
+            "50g Parmesan",
+            "Freshly ground black pepper"
+        ],
+        "instructions": [
+            "Boil spaghetti in salted water until al dente.",
+            "Cook pancetta until crispy.",
+            "Beat eggs and mix with grated parmesan.",
+            "Combine spaghetti with pancetta and remove from heat.",
+            "Stir in the egg and cheese mixture. Serve with black pepper."
+        ],
+        "image": "src/assets/images/Spaghetti Carbonara.webp",
+        "prepTime": "10 mins",
+        "cookTime": "15 mins",
+        "totalTime": "25 mins",
+        "servings": "4",
+        "rating": 4
+    },
+    {
+        "id": 2,
+        "title": "Chicken Curry",
+        "detailedIngredients": [
+            "500g Chicken breast, diced",
+            "2 tbsp Curry powder",
+            "400ml Coconut milk",
+            "1 large Onion, chopped",
+            "2 cloves Garlic, minced",
+            "1 tbsp Ginger, grated"
+        ],
+        "instructions": [
+            "Saute onions, garlic, and ginger until fragrant.",
+            "Add chicken and curry powder, cook until browned.",
+            "Pour in coconut milk and simmer for 20 minutes.",
+            "Serve with rice."
+        ],
+        "image": "src/assets/images/Chicken Curry.webp",
+        "prepTime": "15 mins",
+        "cookTime": "30 mins",
+        "totalTime": "45 mins",
+        "servings": "4",
+        "rating": 5
+    },
+    {
+        "id": 3,
+        "title": "Pancakes",
+        "detailedIngredients": [
+            "1.5 cups all-purpose flour",
+            "3.5 teaspoons baking powder",
+            "1 tablespoon white sugar",
+            "0.25 teaspoon salt, or more to taste",
+            "1.25 cups milk",
+            "3 tablespoons butter, melted",
+            "1 egg"
+        ],
+        "instructions": [
+            "Sift flour, baking powder, sugar, and salt together in a large bowl. Make a well in the center and add milk, melted butter, and egg; mix until smooth.",
+            "Heat a lightly oiled griddle or pan over medium-high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake; cook until bubbles form and the edges are dry, about 2 to 3 minutes. Flip and cook until browned on the other side. Repeat with remaining batter."
+        ],
+        "image": "src/assets/images/Pancakes.webp",
+        "prepTime": "5 mins",
+        "cookTime": "15 mins",
+        "totalTime": "20 mins",
+        "servings": "8",
+        "rating": 4
+    },
+    {
+        "id": 4,
+        "title": "Grilled Cheese Sandwich",
+        "detailedIngredients": [
+            "2 slices Bread",
+            "2 slices Cheese",
+            "1 tbsp Butter"
+        ],
+        "instructions": [
+            "Butter the bread on one side.",
+            "Place cheese between slices, buttered sides out.",
+            "Grill in a pan until golden brown and cheese is melted."
+        ],
+        "image": "src/assets/images/Grilled Cheese Sandwich.webp",
+        "prepTime": "5 mins",
+        "cookTime": "10 mins",
+        "totalTime": "15 mins",
+        "servings": "1",
+        "rating": 3
+    },
+    {
+        "id": 5,
+        "title": "Caesar Salad",
+        "detailedIngredients": [
+            "1 head Romaine lettuce, chopped",
+            "1 cup Croutons",
+            "0.5 cup Caesar dressing",
+            "0.25 cup Parmesan cheese, grated"
+        ],
+        "instructions": [
+            "Toss all ingredients in a large bowl until well coated.",
+            "Serve chilled."
+        ],
+        "image": "src/assets/images/Caesar Salad.webp",
+        "prepTime": "10 mins",
+        "cookTime": "10 mins",
+        "totalTime": "20 mins",
+        "servings": "4",
+        "rating": 5
+    },
+    {
+        "id": 6,
+        "title": "Gulab Jamun",
+        "detailedIngredients": [
+            "Gulab Jamun"
+        ],
+        "instructions": [
+            "Buy a can of Gulab Jamun from Indian store",
+            "Serve in a bowl"
+        ],
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXF3TN0NQaQO_vkZwGoIz9C-qRV7uCJnzNVQ&s",
+        "prepTime": "0 mins",
+        "cookTime": "0 mins",
+        "totalTime": "0 mins",
+        "servings": "4",
+        "rating": 5
+    },
+    {
+        "id": 7,
+        "title": "Chocolate Chip Cookies",
+        "detailedIngredients": [
+            "1 cup butter, softened",
+            "1 cup white sugar",
+            "1 cup packed brown sugar",
+            "2 eggs",
+            "2 teaspoons vanilla extract",
+            "3 cups all-purpose flour",
+            "1 teaspoon baking soda",
+            "2 teaspoons hot water",
+            "0.5 teaspoon salt",
+            "2 cups semisweet chocolate chips",
+            "1 cup chopped walnuts (optional)"
+        ],
+        "instructions": [
+            "Preheat oven to 350 degrees F (175 degrees C).",
+            "Cream together the butter, white sugar, and brown sugar until smooth. Beat in the eggs one at a time, then stir in the vanilla. Dissolve baking soda in hot water. Add to batter along with salt. Stir in flour, chocolate chips, and nuts. Drop by large spoonfuls onto ungreased pans.",
+            "Bake for about 10 minutes in the preheated oven, or until edges are nicely browned."
+        ],
+        "image": "https://handletheheat.com/wp-content/uploads/2020/10/BAKERY-STYLE-CHOCOLATE-CHIP-COOKIES-9-637x637-1.jpg",
+        "prepTime": "15 mins",
+        "cookTime": "10 mins",
+        "totalTime": "25 mins",
+        "servings": "24",
+        "rating": 5
+    }
+]
